@@ -9,6 +9,9 @@ color:white;
 width:100vw;
 height:100vh;
 }
+.kdk .collogo{
+  display:none;
+}
 .kdk img{
   width:100%;
   height:100%;
@@ -21,13 +24,13 @@ height:100vh;
   box-sizing:border-box;
   position:absolute;
   width:50%;
-  height:30%;
+  height:100%;
   right:0px;
   top:0px;
   border-radius:25px;
   padding:1rem;
 }
-.kdk .detail img{
+.kdk .quotepic{
   width:80px;
   height:80px;
   display:block;
@@ -62,4 +65,37 @@ height:100vh;
   height:50%;
   background:black;
   position:relative;
+}
+
+
+@media (orientation:portrait){
+  
+  *{
+  font-size:1rem;
+  }
+  .kdk .collogo{
+    display:block;
+    position:absolute;
+    top:140px;
+    left:30%;
+    border-radius:50%;
+    border:2px solid rgba(17, 24, 39);
+    width:180px;
+    height:180px;
+  }
+  .kdk img{
+    height:30%;
+    position:static;
+  }
+  .kdk .detail{
+   position:static;
+   width:100%;
+   border-radius:0;
+  }
+  .kdk .detail>div{
+    margin-top:30px;
+  }
+  .kdk .detail .quote{
+    display:none;
+  }
 }
