@@ -1,0 +1,65 @@
+*{
+/* border:4px solid red;*/
+  margin:0px;
+  padding:0px;
+  font-size:1.3rem;
+}
+  .kdk{
+color:white;
+width:100vw;
+height:100vh;
+}
+.kdk img{
+  width:100%;
+  height:100%;
+  display:block;
+  position:absolute;
+  top:0px;
+}
+.kdk .detail{
+  background-color:rgba(17, 24, 39, 0.7);
+  box-sizing:border-box;
+  position:absolute;
+  width:50%;
+  height:30%;
+  right:0px;
+  top:0px;
+  border-radius:25px;
+  padding:1rem;
+}
+.kdk .detail img{
+  width:80px;
+  height:80px;
+  display:block;
+  position:static;
+  margin:7px;
+}
+.picsel{
+  width:85%;
+  height:100vh;
+  margin:10px auto;
+  background-color:rgba(17, 24, 39, 0.3);
+  padding:1rem;
+  border-radius:10px;
+}
+.picsel img{
+  width:40%;
+}
+.picsel>div{
+  display:flex;
+  align-items:center;
+  margin:15px;
+  justify-content: space-between;
+}
+.picsel .hori{
+  width:78%;
+  height:1px;
+  background:black;
+  position:absolute;
+}
+.picsel .ver{
+  width:1px;
+  height:50%;
+  background:black;
+  position:relative;
+}
